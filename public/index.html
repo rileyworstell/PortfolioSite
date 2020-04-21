@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riley Worstell</title>
+    <link rel="stylesheet" href="./style/superslides.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  
+  <link rel="stylesheet" href="./style/style.css">
+  
+</head>
+<body>
+
+<div class="loader">
+  <div class="inner"></div>
+</div>
+
+<div id="slides">
+  <div class="overlay"></div>
+  <div class="slides-container">
+    <img src="photo1.jpg">
+    <img src="photo4.jpg">
+    <img src="photo3.jpg">
+  </div>
+
+  <div class="titleMessage">
+    <div class="heading">
+      <p class="main">RILEY WORSTELL</p>
+      <p class="sub typed"></p>
+    </div>
+
+  </div>
+  <nav class="slides-navigation">
+    <a href="#" class="next"><img src="./icons8.png"></a>
+    <a href="#" class="prev"><img src="./icons8rev.png"></a>
+  </nav>
+
+</div>
+
+<nav id="navigation" class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="#">Riley Worstell</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><img src="./menu.png" ></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio">Portfolio</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<div id="about" class="section">
+  <div class="container">
+<div class="row">
+  <div class="col-md-5">
+    <img class="aboutImage" src="computer.jpg">
+  </div>
+  <div class="col-md-7">
+    <h4>My name is Riley Worstell</h4><br>
+    <p>Hello! My name is Riley Worstell. I currently work as an Engineer. I went to school at the University of Louisville and got a Bachelor's in Electrical Engineering.
+        </p><br>
+    <p>  I have experience with many different programming languages such as Python, Javascript, HTML, CSS, C++, C, Java.
+      One of my favorite personal projects was a maze solver in Python using the Breadth First Search and Depth First Search algorithms.
+    </p>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+<div id="contact" class="contactSection section">
+  <div class="col-md-12 text-center">
+    <p class="subHeading">Like what you see?</p>
+    <h2>I'd love to hear from you!</h2>
+    <a href="mailTo:rcwors02@gmail.com" class="contactButton">Get in touch!</a>
+  
+  </div>
+</div>
+
+<div id="portfolio" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="heading">
+        <h2>Portfolio</h2>
+      </div>
+      <div class="filter">
+        <ul id="filters">
+          <li><a href="#" data-filter="*" class="current">All</a></li>
+          <li><a href="#" data-filter=".web">Web</a></li>
+          <li><a href="#" data-filter=".mobile">Mobile</a></li>
+          <li><a href="#" data-filter=".other">Other</a></li>
+    
+        </ul>
+      </div>
+
+      <div class="itemsContainer">
+        <ul class="items">
+
+            <li onclick="" class="web col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="item">
+                <img class="photo" src="portfolioPhotos/thumbnail/architectureWebSquare.jpg"/>
+                <div class="icons">
+                  <a href="portfolioPhotos/architectureWeb.JPG" class="openButton" data-fancybox data-caption="A simple Photo Gallery Site." title="View image"><i class="fa fa-search"></i></a>
+                  <a href="/Architecture_Website/index.html" target="_blank" class="targetLink"><i class="fa fa-link"></i></a>
+                </div>
+                <div class="imageOverlay"></div>
+              </div>
+            </li>
+
+            <li onclick="" class="web col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="item">
+                <img class="photo" src="portfolioPhotos/thumbnail/hangmanSquare.jpg"/>
+                <div class="icons">
+                  <a href="portfolioPhotos/hangman.JPG" class="openButton" data-fancybox data-caption="Hangman Game!" title="View image"><i class="fa fa-search"></i></a>
+                  <a href="/Hangman/index.html" target="_blank" class="targetLink"><i class="fa fa-link"></i></a>
+                </div>
+                <div class="imageOverlay"></div>
+              </div>
+            </li>
+
+            <li onclick="" class="web col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="item">
+                <img class="photo" src="portfolioPhotos/thumbnail/tictacSquare.jpg"/>
+                <div class="icons">
+                  <a href="portfolioPhotos/tictac.JPG" class="openButton" data-fancybox data-caption="This is a TicTacToe Game to play against an AI." title="View image"><i class="fa fa-search"></i></a>
+                  <a href="/TicTacGame/index.html" target="_blank" class="targetLink"><i class="fa fa-link"></i></a>
+                </div>
+                <div class="imageOverlay"></div>
+              </div>
+            </li>
+
+            <li onclick="" class="web col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="item">
+                <img class="photo" src="portfolioPhotos/thumbnail/colorSquare.jpg"/>
+                <div class="icons">
+                  <a href="portfolioPhotos/color.JPG" class="openButton" data-fancybox data-caption="A Simple RGB Color Game" title="View image"><i class="fa fa-search"></i></a>
+                  <a href="/Color Game/index.html" target="_blank" class="targetLink"><i class="fa fa-link"></i></a>
+                </div>
+                <div class="imageOverlay"></div>
+              </div>
+            </li>
+
+            <li onclick="" class="other col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="item">
+                <img class="photo" src="portfolioPhotos/thumbnail/mazeSquare.jpg"/>
+                <div class="icons">
+                  <a href="portfolioPhotos/maze.JPG" class="openButton" data-fancybox data-caption="BFS and DFS Maze Solving Algorithm utilizing Pygame." title="View image"><i class="fa fa-search"></i></a>
+                  <a href="https://github.com/rileyworstell/Visual-BFS-DFS" target="_blank" class="targetLink"><i class="fa fa-link"></i></a>
+                </div>
+                <div class="imageOverlay"></div>
+              </div>
+            </li>
+
+            <li onclick="" class="web col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="item">
+                <img class="photo" src="portfolioPhotos/thumbnail/blogSquare.jpg"/>
+                <div class="icons">
+                  <a href="portfolioPhotos/blog.JPG" class="openButton" data-fancybox data-caption="This is a blog using Node.js and MongoDB." title="View image"><i class="fa fa-search"></i></a>
+                  <a href="https://myblogrileyworstell.herokuapp.com/" target="_blank" class="targetLink"><i class="fa fa-link"></i></a>
+                </div>
+                <div class="imageOverlay"></div>
+              </div>
+            </li>
+
+            <li onclick="" class="mobile col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="item">
+                <img class="photo" src="portfolioPhotos/thumbnail/PhrasesSquare.png"/>
+                <div class="icons">
+                  <a href="portfolioPhotos/Phrases.png" class="openButton" data-fancybox data-caption="An Android App that says simple French Phrases when clicking on the English ones." title="View image"><i class="fa fa-search"></i></a>
+                  <a href="https://github.com/rileyworstell/AndroidFrenchPhrases" target="_blank" class="targetLink"><i class="fa fa-link"></i></a>
+                </div>
+                <div class="imageOverlay"></div>
+              </div>
+            </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="copyrightSection">
+  <div class="col-md-12 text-center">
+    <p>&copy; Copyright Riley Worstell 2020</p>
+  </div>
+</div>
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<script src="jquery.superslides.min.js"></script>
+  <script src="typed.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="code.js"></script>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title></title>
+
+    <link rel="stylesheet" href="css/style.css">
+   
+
+</head>
+
+<body>
+
+    <div class="navbar">
+      <h3 style="color: white;">Welcome to Tic Tac Toe, Select a Square to start.</h3>
+        <br> <!-- placeholder for now-->
+    </div>
+<div class="page">
+    <div class="sidebarleft">
+        <p class="heading">
+            Player 1:
+        </p>
+        <p class="heading" id="wins"></p>
+        <p class="heading" id="numOfWins"></p>
+       
+    </div>
+    <div id="grid" class="container">
+        <div onclick="startGame(this.id)" class="box fade-in" id="box1">o</div>
+        <div onclick="startGame(this.id)" class="box" id="box2">o</div>
+        <div onclick="startGame(this.id)" class="box" id="box3">o</div>
+        <div onclick="startGame(this.id)" class="box" id="box4">o</div>
+        <div onclick="startGame(this.id)" class="box" id="box5">o</div>
+        <div onclick="startGame(this.id)" class="box" id="box6">o</div>
+        <div onclick="startGame(this.id)" class="box" id="box7">o</div>
+        <div onclick="startGame(this.id)" class="box" id="box8">o</div>
+        <div onclick="startGame(this.id)" class="box" id="box9">o</div>
+    </div>
+    <div class="sidebarright">
+        <p class="heading">AI</p>
+<p class="heading" id="aiwins"></p>
+<p class="heading" id="numOfAiWins"></p>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+<script src="java1.js"></script>
+</html>
