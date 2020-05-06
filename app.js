@@ -22,6 +22,9 @@ app.get("/Architecture_Website/index.html", function(req, res) {
 	res.sendFile(path.join(__dirname, '../public/Architecture_Website/', 'index.html'))
 });
 
+app.get("/privacy/index.html", function(req, res) {
+	res.sendFile(path.join(__dirname, '../public/privacy/', 'index.html'));
+});
 
 
 
