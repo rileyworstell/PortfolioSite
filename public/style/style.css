@@ -7,6 +7,18 @@
 
     
 }
+#RESUME {
+	list-style: none;
+}
+#RESUMEE {
+	 background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	color: white;
+}
 .slides-navigation a.next {
     right: 5px;
 
