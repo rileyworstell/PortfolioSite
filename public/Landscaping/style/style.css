@@ -1,0 +1,56 @@
+h1 {
+    color: #d5e0c0;
+}
+
+#icon {
+  padding-left: 10px;
+}
+
+#mainContainer {
+    background-image: url('../img/flowerBackground.jpeg');
+   /* background-repeat: no-repeat; */
+    background-size: cover;
+    border-radius: 0px;
+}
+
+#mainP {
+    color:#d5e0c0;
+    font-style: bold;
+
+}
+#aboutButton {
+    background-color: #997950;
+    border: 0;
+}
+#aboutButton:hover {
+    background-color: #795c32;
+}
+#aboutButton:clicked {
+    box-shadow: none;
+}
+#contactButton {
+    background-color: #43270F;
+    border: 0;
+}
+#contactButton:hover {
+    background-color: #795c32;
+}
+#navBackground {
+    background-color: #43270F;
+}
+
+#album img {
+    min-height: 260px;
+    max-height: 260px;
+}
+
+footer {
+    background-color: #43270F;
+
+    height: 50px;
+}
+#footer {
+    color: #d5e0c0;
+    text-align: center;
+    padding-top: 10px;
+}
