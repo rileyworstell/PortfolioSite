@@ -1,0 +1,48 @@
+#menu {  
+    background-color: #EC7063 !important;
+    color: #fff;
+}
+#centerProp {
+    padding-top: 40px;
+}
+#menu li a{
+    background-color: #EC7063 !important;
+    color: #fff;
+}
+ul.menu {
+    background-color: #EC7063;
+}
+ul #bottom {
+    background-color: #eee;
+}
+#footer {
+   background-color: #EC7063;
+   color: #fff;
+}
+#footer a {
+    color: #fff;
+}
+.cell .callout img {
+    min-height: 300px;
+    max-height: 300px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+    background-color: #eee;
+}
+#contactButton {
+    background-color: #EC7063;
+}
+#contactButton:hover {
+    opacity: 90%;
+}
+#footerText a {
+    color: #333;
+    background-color: #eee;
+}
+.button.hollow {
+    border: 1px solid #EC7063;
+    color: #EC7063;
+}
